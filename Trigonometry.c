@@ -2,34 +2,35 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(void){
-double graus, raio, base, expoente, x;
-printf("Trigonometria\nDigite o numero dos graus: ");
-scanf("%lf", &graus);
-printf("Geometria\nDigite a distancia do raio do circulo: ");
-scanf("%lf", &raio);
-printf("Potenciacao\nDigite a base: ");
-scanf("%lf", &base);
-printf("Digite o expoente: ");
-scanf("%lf", &expoente);
-x = pow(base,expoente);
+int main(void) {
+	double degrees, radius, base, exponent, x;
+	printf("Trigonometry\nEnter the angle in degrees: ");
+	scanf("%lf", &degrees);
+	printf("Geometry\nEnter the radius of the circle: ");
+	scanf("%lf", &radius);
+	printf("Exponentiation\nEnter the base: ");
+	scanf("%lf", &base);
+	printf("Enter the exponent: ");
+	scanf("%lf", &exponent);
+	x = pow(base, exponent);
 
-printf("O seno de %.2lf eh %.2lf\n", graus,sin(graus));
-printf("O cosseno de %.2lf e %.2lf\n", graus, cos(graus));
-printf("A tangente de %.2lf eh %.2lf\n", graus,tan(graus));
-printf("%.2lf elevado a %.2lf eh %.2lf\n" , base, expoente, x);
-printf("A raiz quadrada de %.2lf eh %.2lf\n", x ,sqrt(x));
-printf("O log2 de %.2lf eh %.2lf\n",x,log(x));
-printf("O log10 de %.2lf eh %lf\n", x, log10(x));
-printf("O teto de %.2lf eh %.2lf\n",x,ceil(x));
-printf("A parte inteira de %.2lf eh %lf\n",x,floor(x));
-printf("Um circulo com %.2lf cm de raio tem: \n", raio);
-printf("%.2lf cm de comprimento e \n", raio*2*M_PI);
-printf("%.2lf cm de area.", pow(raio,2)*M_PI);
+	printf("The sine of %.2lf is %.2lf\n", degrees, sin(degrees));
+	printf("The cosine of %.2lf is %.2lf\n", degrees, cos(degrees));
+	printf("The tangent of %.2lf is %.2lf\n", degrees, tan(degrees));
+	printf("%.2lf raised to the power of %.2lf is %.2lf\n", base, exponent, x);
+	printf("The square root of %.2lf is %.2lf\n", x, sqrt(x));
+	printf("The base-2 logarithm of %.2lf is %.2lf\n", x, log(x));
+	printf("The base-10 logarithm of %.2lf is %lf\n", x, log10(x));
+	printf("The ceiling of %.2lf is %.2lf\n", x, ceil(x));
+	printf("The floor of %.2lf is %lf\n", x, floor(x));
+	printf("A circle with a radius of %.2lf cm has:\n", radius);
+	printf("%.2lf cm circumference and\n", radius * 2 * M_PI);
+	printf("%.2lf cm area.", pow(radius, 2) * M_PI);
 
-//system ("pause");
-return EXIT_SUCCESS;
+	//system("pause");
+	return EXIT_SUCCESS;
 }
+
 
 /*
 #include <cmath> // ou <math.h>

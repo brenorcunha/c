@@ -1,7 +1,7 @@
 	#include <stdio.h>
 	#include <stdlib.h>
 	
-	void ordenacaoInsercao(int v[], int ni){
+	void orderingMatrix(int v[], int ni){
 			int i,j, aux;
 		for(i=1; i<ni;i++){
 		
@@ -12,7 +12,7 @@
 		}
 			
  for(i=0 ; i <5 ; i++)
-printf("%da posicao do vetor ordenado: %d\n", i+1, v[i]); 
+printf("%d (st/nd/rd) position of sorted vector: %d\n", i+1, v[i]); 
 		
 	}	
 	
@@ -22,11 +22,11 @@ printf("%da posicao do vetor ordenado: %d\n", i+1, v[i]);
 		
 		for(i=0 ; i <5 ; i++)
         {
-            printf("Entre com o numero %d: \n", i+1);
+            printf("Insert the number: %d \n", i+1);
             scanf("%d", &v[i]);
         }
  for(i=0 ; i <5 ; i++)
-printf("%da posicao do vetor em main: %d\n", i+1, v[i]); 
+printf("%d (st/nd/rd) position of main: %d\n", i+1, v[i]); 
 		
-		ordenacaoInsercao(v,5);
+		orderingMatrix(v,5);
 	}
