@@ -1,0 +1,41 @@
+Speedup: 1.05 Eficiencia 0.53 
+Speedup: 1.05 Eficiencia 0.26 
+Speedup: 1.05 Eficiencia 0.13 
+
+Speedup: 1.05 Eficiencia 0.53 
+Speedup: 1.03 Eficiencia 0.26 
+Speedup: 1.06 Eficiencia 0.13 
+
+Speedup: 1.01 Eficiencia 0.50 
+Speedup: 1.01 Eficiencia 0.25 
+Speedup: 1.02 Eficiencia 0.13 
+
+Speedup: 1.00 Eficiencia 0.50 
+Speedup: 1.00 Eficiencia 0.25 
+Speedup: 1.00 Eficiencia 0.13 
+
+Speedup: 1.03 Eficiencia 0.52
+Speedup: 1.03 Eficiencia 0.26
+Speedup: 1.07 Eficiencia 0.13
+
+Speedup: 1.04 Eficiencia 0.52
+Speedup: 1.05 Eficiencia 0.26
+Speedup: 1.04 Eficiencia 0.13
+
+Speedup: 1.17 Eficiencia 0.58
+Speedup: 1.17 Eficiencia 0.29
+Speedup: 1.17 Eficiencia 0.15
+
+
+Speedup: 1.17 Eficiencia 0.58
+Speedup: 1.16 Eficiencia 0.29
+Speedup: 1.17 Eficiencia 0.15
+
+
+Speedup: 1.03 Eficiencia 0.52
+Speedup: 1.03 Eficiencia 0.52
+Speedup: 1.04 Eficiencia 0.26
+Speedup: 1.04 Eficiencia 0.13
+
+
+Speedup: 2.50 Eficiencia 1.25
