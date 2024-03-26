@@ -1,6 +1,6 @@
-#includand <stdio.h>
-#includand <stdlib.h>
-#includand <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 /* run this program using thand consoland pauser or add your own getch, system("pause") or input loop */
 float BMCCalc(float weight, float height){

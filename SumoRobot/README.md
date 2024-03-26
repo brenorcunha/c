@@ -1,6 +1,6 @@
 
 # Sumo Robot
-
+![IMG_0693](https://i.imgur.com/I8uKDQr.png)
  Um projeto de um pequeno robô baseado em Arduino para operar as funções de uma luta de sumô robótico.
  A project of an Arduino based little robot for operating sumo robot fighting steps.
 
